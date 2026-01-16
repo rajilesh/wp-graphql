@@ -50,7 +50,7 @@ class DateInput {
 						'second' => [
 							'type'        => 'Int',
 							'description' => static function () {
-								return __( 'Second (from 0 to 59)', 'wp-graphql' );
+								return __( 'Second (0 to 59)', 'wp-graphql' );
 							},
 						],
 					];
