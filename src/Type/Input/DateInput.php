@@ -35,6 +35,24 @@ class DateInput {
 								return __( 'Day of the month (from 1 to 31)', 'wp-graphql' );
 							},
 						],
+						'hour'   => [
+							'type'        => 'Int',
+							'description' => static function () {
+								return __( 'Hour (from 0 to 23)', 'wp-graphql' );
+							},
+						],
+						'minute' => [
+							'type'        => 'Int',
+							'description' => static function () {
+								return __( 'Minute (from 0 to 59)', 'wp-graphql' );
+							},
+						],
+						'second' => [
+							'type'        => 'Int',
+							'description' => static function () {
+								return __( 'Second (from 0 to 59)', 'wp-graphql' );
+							},
+						],
 					];
 				},
 			]
